@@ -43,6 +43,17 @@ Implementation:
 
   Routing Method:
      Static routes were configured (on RRAS Console) on each router to ensure proper traffic forwarding between subnets. 
+     static route for Router 1 --> (images/static route in router1.PNG)
+     static route for Router 2 --> (images/static route in router2.PNG)
+
+ Validation & Testing:
+   Verified connectivity using ping between clients in different subnets
+      images/ping from win10-1 to win10-2.PNG
+      images/ping from win10-1 to win10-3.PNG
+      images/ping from win10-2 to win10-3.PNG
+      images/ping from win10-3 to win10-1.PNG
+      
+      
          
 
     
