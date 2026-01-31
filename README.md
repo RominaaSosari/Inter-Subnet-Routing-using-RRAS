@@ -10,6 +10,8 @@ Design:
   -Windows Server routes handle traffic routing between subnets
   -Clients uses the router's interface as their default gateway
 
+Network Topology: (images/Untitled Diagram.drawio.png)
+
 
   
 Implementation:
