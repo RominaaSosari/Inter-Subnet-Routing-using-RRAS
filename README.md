@@ -9,6 +9,9 @@ Design:
   -Each Subnet uses a unique IP Address range
   -Windows Server routes handle traffic routing between subnets
   -Clients uses the router's interface as their default gateway
+
+
+  
 Implementation:
    Router Server 1 (Windows Server):
    -Role: Routing and Remote Access(RRAS)
