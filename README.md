@@ -51,6 +51,8 @@ Implementation:
 
   Routing Method:
      Static routes were configured (on RRAS Console) on each router to ensure proper traffic forwarding between subnets. 
+
+     
      static route for Router 1 --> (Screenshots/static route in router1.PNG)
      static route for Router 2 --> (Screenshots/static route in router2.PNG)
 
