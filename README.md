@@ -52,7 +52,8 @@ Implementation:
 
  Validation & Testing:
    Verified connectivity using ping between clients in different subnets
-      Screenshots/ping from win10-1 to win10-2.PNG
+      [ping 1 -> 2] (Screenshots/ping from win10-1 to win10-2.PNG)
+
       Screenshots/ping from win10-1 to win10-3.PNG
       Screenshots/ping from win10-2 to win10-3.PNG
       Screenshots/ping from win10-3 to win10-1.PNG
