@@ -15,6 +15,10 @@ Network Topology: (Screenshots/Untitled Diagram.drawio.png)
 
   
 Implementation:
+
+
+
+
     Router Server 1 (Windows Server):
      -Role: Routing and Remote Access(RRAS)
      -multiple network interface
