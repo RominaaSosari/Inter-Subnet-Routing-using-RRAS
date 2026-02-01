@@ -10,7 +10,7 @@ Design:
   -Windows Server routes handle traffic routing between subnets
   -Clients uses the router's interface as their default gateway
 
-Network Topology: (Screenshots/Untitled Diagram.drawio.png)
+Network Topology: (Screenshots/Topology.drawio.png)
 
 
   
@@ -57,7 +57,6 @@ Implementation:
 
    
       [ping 1 -> 2] (Screenshots/ping from win10-1 to win10-2.PNG)
-
       [ping 1 -> 3] (Screenshots/ping from win10-1 to win10-3.PNG)
       [ping 2 -> 3] (Screenshots/ping from win10-2 to win10-3.PNG)
       [ping 3 -> 1] (Screenshots/ping from win10-3 to win10-1.PNG)
