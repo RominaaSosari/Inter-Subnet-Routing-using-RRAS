@@ -1,6 +1,10 @@
 # Inter Subnet Routing using Windows Server Routing (RRAS)
 Scenario: An organization has multiple departments, each located in a separate IP subnet. To enable communication between these isolated networks, Windows Server is used as a software-based router by implementing Routing and Remote Access Services(RRAS)
+
+
 Lab Environment (in Hyper-V):
+
+
     2 Windows Server (Router)
     3 Windows Client (Windows 10)
     3 Virtual Switch (Private Switch)
