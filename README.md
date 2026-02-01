@@ -10,15 +10,15 @@ Design:
   -Windows Server routes handle traffic routing between subnets
   -Clients uses the router's interface as their default gateway
 
-Network Topology: (images/Untitled Diagram.drawio.png)
+Network Topology: (Screenshots/Untitled Diagram.drawio.png)
 
 
   
 Implementation:
-   Router Server 1 (Windows Server):
-   -Role: Routing and Remote Access(RRAS)
-   -multiple network interface
-   -2 virtual network adapters(Private 1 & Private 2):
+    Router Server 1 (Windows Server):
+     -Role: Routing and Remote Access(RRAS)
+     -multiple network interface
+     -2 virtual network adapters(Private 1 & Private 2):
          IP Private1: 192.168.1.254, Subnet mask: 255.255.255.0
          IP Private2: 192.168.2.254, Subnet mask: 255.255.255.0
 
@@ -43,15 +43,15 @@ Implementation:
 
   Routing Method:
      Static routes were configured (on RRAS Console) on each router to ensure proper traffic forwarding between subnets. 
-     static route for Router 1 --> (images/static route in router1.PNG)
-     static route for Router 2 --> (images/static route in router2.PNG)
+     static route for Router 1 --> (Screenshots/static route in router1.PNG)
+     static route for Router 2 --> (Screenshots/static route in router2.PNG)
 
  Validation & Testing:
    Verified connectivity using ping between clients in different subnets
-      images/ping from win10-1 to win10-2.PNG
-      images/ping from win10-1 to win10-3.PNG
-      images/ping from win10-2 to win10-3.PNG
-      images/ping from win10-3 to win10-1.PNG
+      Screenshots/ping from win10-1 to win10-2.PNG
+      Screenshots/ping from win10-1 to win10-3.PNG
+      Screenshots/ping from win10-2 to win10-3.PNG
+      Screenshots/ping from win10-3 to win10-1.PNG
       
       
          
