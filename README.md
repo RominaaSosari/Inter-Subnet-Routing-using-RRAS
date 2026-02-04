@@ -2,40 +2,34 @@
 Scenario: An organization has multiple departments, each located in a separate IP subnet. To enable communication between these isolated networks, Windows Server is used as a software-based router by implementing Routing and Remote Access Services(RRAS)
 
 
-Lab Environment (in Hyper-V):
+##Lab Environment 
+This Lab was implemented using Microsoft Hyper-V. All servers and clients are deployed as virtual machines in a Hyper-V virtual network.
 
+##Design:
+  -3 Subnets each with unique IP ranges
+  -2 Routers (Windows Server RRAS)
+  - Clients in different Subnets
 
-    2 Windows Server (Router)
-    3 Windows Client (Windows 10)
-    3 Virtual Switch (Private Switch)
-
-Design:
-  -Each Subnet uses a unique IP Address range
-  -Windows Server routes handle traffic routing between subnets
-  -Clients uses the router's interface as their default gateway
-
-Network Topology:
+##Network Topology:
 Below is the network design:
 ![Network Topology] (Screenshots/Topology.drawio.png)
 
 
 
   
-Implementation:
+##Implementation:
 
 
 
 
     Router Server 1 (Windows Server):
      -Role: Routing and Remote Access(RRAS)
-     -multiple network interface
      -2 virtual network adapters(Private 1 & Private 2):
          IP Private1: 192.168.1.254, Subnet mask: 255.255.255.0
          IP Private2: 192.168.2.254, Subnet mask: 255.255.255.0
 
     Router Server 2 (Windows Server):
      -Role: Routing and Remote Access(RRAS)
-     -multiple network interface
      -2 virtual network adapters(Private 2 & Private 3):
          IP Private2: 192.168.2.253, Subnet mask: 255.255.255.0
          IP Private3: 192.168.3.254, Subnet mask: 255.255.255.0
@@ -52,14 +46,14 @@ Implementation:
      Windows10-3 connected to Virtual Switch Private3
      IP: 192.168.3.1, Subnet Mask: 255.255.255.0, default gateway: 192.168.3.254
 
-  Routing Method:
+  ##Routing Method:
      Static routes were configured (on RRAS Console) on each router to ensure proper traffic forwarding between subnets. 
 
      
      Router1 Static Route --> (Screenshots/static route in router1.PNG)
      Router2 Static Route --> (Screenshots/static route in router2.PNG)
 
- Validation & Testing:
+ ##Validation & Testing:
    Verified connectivity using ping between clients in different subnets
 
 
