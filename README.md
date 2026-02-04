@@ -10,7 +10,7 @@ This Lab was implemented using Microsoft Hyper-V. All servers and clients are de
 
   - 3 Subnets each with unique IP ranges
   - 2 Routers (Windows Server RRAS)
-  - Clients in different Subnets
+  - 3 Clients in different Subnets
 
 ## Network Topology:
 Below is the network design:
