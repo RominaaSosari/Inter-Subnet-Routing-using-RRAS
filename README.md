@@ -14,7 +14,10 @@ Design:
   -Windows Server routes handle traffic routing between subnets
   -Clients uses the router's interface as their default gateway
 
-Network Topology: (Screenshots/Topology.drawio.png)
+Network Topology:
+Below is the network design:
+![Network Topology] (Screenshots/Topology.drawio.png)
+
 
 
   
@@ -53,8 +56,8 @@ Implementation:
      Static routes were configured (on RRAS Console) on each router to ensure proper traffic forwarding between subnets. 
 
      
-     static route for Router 1 --> (Screenshots/static route in router1.PNG)
-     static route for Router 2 --> (Screenshots/static route in router2.PNG)
+     Router1 Static Route --> (Screenshots/static route in router1.PNG)
+     Router2 Static Route --> (Screenshots/static route in router2.PNG)
 
  Validation & Testing:
    Verified connectivity using ping between clients in different subnets
@@ -66,6 +69,11 @@ Implementation:
       [ping 1 -> 3] (Screenshots/ping from win10-1 to win10-3.PNG)
       [ping 2 -> 3] (Screenshots/ping from win10-2 to win10-3.PNG)
       [ping 3 -> 1] (Screenshots/ping from win10-3 to win10-1.PNG)
+
+
+
+## Result
+All Clients successfully communicated across subnets via static routes configured on RRAS.
       
       
          
