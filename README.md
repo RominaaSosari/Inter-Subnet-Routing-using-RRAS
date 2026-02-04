@@ -7,8 +7,9 @@ Scenario: An organization has multiple departments, each located in a separate I
 This Lab was implemented using Microsoft Hyper-V. All servers and clients are deployed as virtual machines in a Hyper-V virtual network.
 
 ## Design:
-  -3 Subnets each with unique IP ranges
-  -2 Routers (Windows Server RRAS)
+
+  - 3 Subnets each with unique IP ranges
+  - 2 Routers (Windows Server RRAS)
   - Clients in different Subnets
 
 ## Network Topology:
