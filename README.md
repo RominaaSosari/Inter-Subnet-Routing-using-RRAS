@@ -51,7 +51,7 @@ Below is the network design:
   ## Routing Method:
      Static routes were configured (on RRAS Console) on each router to ensure proper traffic forwarding between subnets. 
 
-     ![Router1 Static Route](Screenshots/static route in router1.PNG)
+     ![Router1 Static Route](Screenshots/static-route-in-router1.PNG)
      ![Router2 Static Route](Screenshots/static route in router2.PNG)
 
  ## Validation & Testing:
