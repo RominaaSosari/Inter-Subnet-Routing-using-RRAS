@@ -14,7 +14,7 @@ This Lab was implemented using Microsoft Hyper-V. All servers and clients are de
 
 ## Network Topology:
 Below is the network design:
-![Network Topology] (Screenshots/Topology.drawio.png)
+![Network Topology](Screenshots/Topology.drawio.png)
 
 
 
@@ -51,20 +51,16 @@ Below is the network design:
   ## Routing Method:
      Static routes were configured (on RRAS Console) on each router to ensure proper traffic forwarding between subnets. 
 
-     
-     Router1 Static Route --> (Screenshots/static route in router1.PNG)
-     Router2 Static Route --> (Screenshots/static route in router2.PNG)
+     ![Router1 Static Route](Screenshots/static route in router1.PNG)
+     ![Router2 Static Route](Screenshots/static route in router2.PNG)
 
  ## Validation & Testing:
    Verified connectivity using ping between clients in different subnets
 
-
-
-   
-      [ping 1 -> 2] (Screenshots/ping from win10-1 to win10-2.PNG)
-      [ping 1 -> 3] (Screenshots/ping from win10-1 to win10-3.PNG)
-      [ping 2 -> 3] (Screenshots/ping from win10-2 to win10-3.PNG)
-      [ping 3 -> 1] (Screenshots/ping from win10-3 to win10-1.PNG)
+      ![ping 1 -> 2](Screenshots/ping from win10-1 to win10-2.PNG)
+      ![ping 1 -> 3](Screenshots/ping from win10-1 to win10-3.PNG)
+      ![ping 2 -> 3](Screenshots/ping from win10-2 to win10-3.PNG)
+      ![ping 3 -> 1](Screenshots/ping from win10-3 to win10-1.PNG)
 
 
 
